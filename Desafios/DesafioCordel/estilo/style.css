@@ -54,24 +54,38 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
+section>p{
+    padding-bottom: 2em;
+}
 .normal{
     background-color: white;
     color: black;
 }
 
 .imagem{
-    background-color: rgba(0, 0, 0, 0.321);
+    background-color: rgba(0, 0, 0, 0.466);
     color: white;
-    
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.474);
+    background-attachment: fixed;
 }
 
 .imagem>p{
     background-color: rgba(0, 0, 0, 0.615);
     display: inline-block;
     padding: 15px;
+}
+
+#img01{
+    background-image: url('../pacote-d012/imagens/background001.jpg');
+}
+
+#img02{
+    background-image: url(../pacote-d012/imagens/background002.jpg);
 }
 
 footer{
