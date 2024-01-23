@@ -91,6 +91,12 @@ main{
 
 }
 
+@media (max-width: 450px) {
+    main{
+        margin: 0px;
+    }
+}
+
 p>a{
     
     color: #27372F;
