@@ -95,6 +95,10 @@ main{
     main{
         margin: 0px;
     }
+
+    nav {
+        padding: 4px;
+    }
 }
 
 p>a{
