@@ -20,10 +20,7 @@
     --fonte-android: 'idroid', 'cursive';
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body{
     background-color: #faebd7;
@@ -89,16 +86,6 @@ main{
     font-size: 1em;
     line-height: 2em;
 
-}
-
-@media (max-width: 450px) {
-    main{
-        margin: 0px;
-    }
-
-    nav {
-        padding: 4px;
-    }
 }
 
 p>a{
@@ -200,3 +187,13 @@ img{
     width: 100%;
 }
 
+@media (max-width: 800px) {
+    main{
+        margin: 0px;
+        
+    }
+
+    nav {
+        padding: 4px;
+    }
+}
